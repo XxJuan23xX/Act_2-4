@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #500097;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.fibonacci-calculator {
+    background-color: #6fa4dc;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    color: black;
+}
+
+.fibonacci-calculator:hover {
+    transform: translateY(-5px);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #b800df;
+    color: black;
+    padding: 15px 0;
+    font-family: italic;
+}
+
+header h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    font-size: 1.1em;
+    color: #000000;
+    font-family: italic;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+p {
+    font-size: 1.1em;
+    color: #555;
+}
